@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'empikPro-Regular';
+  src: local('empikPro-Regular'),
+    url('./fonts/empikPro-Regular.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'empikProBold';
+  src: local('empikPro-Bold'), url('./fonts/empikPro-Bold.woff') format('woff');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'empikPro-Regular';
+}
+
+.slide-first {
+  background: rgb(212, 159, 3);
+}
+
+.slide-first .bg {
+  background: rgb(212, 159, 3);
+}
+
+.slide-second {
+  background: #d04000;
+}
+
+.slide-second .bg {
+  background: #d04000;
+}
+
+.slide-third {
+  background: #d67e17;
+}
+
+.slide-third .bg {
+  background: #d67e17;
 }
